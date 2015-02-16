@@ -16,7 +16,7 @@ public class crow_Control : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		transform.position = new Vector3 (0f, 5.5f, 0);
+		transform.position = new Vector3 (0f, 5.0f, 0);
 	}
 
 	void FixedUpdate()
@@ -30,7 +30,7 @@ public class crow_Control : MonoBehaviour
 		rigidbody.position = new Vector3 
 			(
 				Mathf.Clamp (rigidbody.position.x, boundary.xMin, boundary.xMax), 
-				5.5f,
+				5.0f,
 				0.0f
 				);
 
