@@ -99,7 +99,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 450693970}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 929062195}
@@ -191,7 +191,7 @@ ParticleSystemRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_RenderMode: 3
-  m_MaxParticleSize: .0299999993
+  m_MaxParticleSize: .00999999978
   m_CameraVelocityScale: 0
   m_VelocityScale: 0
   m_LengthScale: 2
@@ -444,7 +444,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
-    gravityModifier: .300000012
+    gravityModifier: .5
     inheritVelocity: 1
     maxNumParticles: 1000
   ShapeModule:
@@ -1262,7 +1262,7 @@ Transform:
   m_GameObject: {fileID: 514807642}
   m_LocalRotation: {x: .000628835522, y: .70710659, z: -.707106531, w: -.000628837268}
   m_LocalPosition: {x: 0, y: 10, z: -1}
-  m_LocalScale: {x: 3.27836442, y: .987440944, z: 6.22779894}
+  m_LocalScale: {x: 4.79438925, y: .987440944, z: 6.22779894}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -1413,7 +1413,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1424842276}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -.5, z: 0}
+  m_LocalPosition: {x: .0399999991, y: -.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1564,7 +1564,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1987832576}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.00999999978, y: 5.5, z: 0}
+  m_LocalPosition: {x: -.00999999978, y: 3.69000006, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1576,7 +1576,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1987832576}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 93.9000015
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 0
