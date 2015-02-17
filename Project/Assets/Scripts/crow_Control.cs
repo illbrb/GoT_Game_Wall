@@ -8,7 +8,7 @@ public class Boundary
 }
 
 
-public class crowControl : MonoBehaviour 
+public class crow_Control : MonoBehaviour 
 {
 	public float playerSpeed;
 	public Boundary boundary;
