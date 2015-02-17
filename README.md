@@ -1,3 +1,5 @@
 # GoT_Game_Wall
-GoT_Game
+
+See wiki for game details / features to add etc.
+
 # TO DO
