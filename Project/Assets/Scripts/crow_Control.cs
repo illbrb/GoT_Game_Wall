@@ -27,13 +27,11 @@ public class crow_Control : MonoBehaviour
 		rigidbody.velocity = movement * playerSpeed;
 	
 	//Player Constraints
-		rigidbody.position = new Vector3 
-			(
-				Mathf.Clamp (rigidbody.position.x, boundary.xMin, boundary.xMax), 
-				5.0f,
-				0.0f
-				);
-
+		rigidbody.position = new Vector3 (
+			Mathf.Clamp (rigidbody.position.x, boundary.xMin, boundary.xMax), 
+			5.0f,
+			0.0f
+			);
 	}
 
 	// Update is called once per frame
@@ -41,17 +39,4 @@ public class crow_Control : MonoBehaviour
 	{
 		
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
