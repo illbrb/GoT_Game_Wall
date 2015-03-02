@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class wallControl : MonoBehaviour {
+public class WallControl : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () 
