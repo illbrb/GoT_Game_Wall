@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class arrowControl : MonoBehaviour {
+public class ArrowControl : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {

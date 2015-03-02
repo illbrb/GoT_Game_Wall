@@ -8,7 +8,7 @@ public class Boundary
 }
 
 
-public class crowControl : MonoBehaviour 
+public class CrowControl : MonoBehaviour 
 {
 	public float playerSpeed;
 	public Boundary boundary;
@@ -38,5 +38,12 @@ public class crowControl : MonoBehaviour
 	void Update () 
 	{
 		
+	}
+
+	void onTriggerEnter2D(Collider2D other)
+	{
+		if (other.tag == "deadly") {
+			Debug.Log ("Dead");
+		}
 	}
 }
