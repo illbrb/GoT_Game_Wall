@@ -1238,6 +1238,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 11461650, guid: 11a97e851b197674c9e63775dbb0d8d1, type: 2}
+      propertyPath: ArrowPrefab
+      value: 
+      objectReference: {fileID: 183966, guid: 1599d7b8056de2f43bae10316b41dd8e, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 11a97e851b197674c9e63775dbb0d8d1, type: 2}
   m_RootGameObject: {fileID: 1987832576}
@@ -1390,7 +1394,7 @@ GameObject:
   - 54: {fileID: 1987832580}
   - 114: {fileID: 1987832577}
   m_Layer: 0
-  m_Name: crow_character
+  m_Name: CrowCharacter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1412,6 +1416,7 @@ MonoBehaviour:
   boundary:
     xMin: -3
     xMax: 3
+  ArrowPrefab: {fileID: 183966, guid: 1599d7b8056de2f43bae10316b41dd8e, type: 2}
 --- !u!212 &1987832578
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -12,6 +12,7 @@ public class CrowControl : MonoBehaviour
 {
 	public float playerSpeed;
 	public Boundary boundary;
+	public GameObject ArrowPrefab;
 	
 	// Use this for initialization
 	void Start () 
@@ -37,6 +38,9 @@ public class CrowControl : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
+		if (Input.GetKeyDown ("space"))
+			//Fire
+			Instantiate (ArrowPrefab, transform.position, Quaternion.identity);
 		
 	}
 
