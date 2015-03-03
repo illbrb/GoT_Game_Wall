@@ -2,7 +2,8 @@
 using System.Collections;
 
 [System.Serializable]
-public class Boundary
+	public class Boundary
+
 {
 	public float xMin, xMax;
 }
@@ -39,15 +40,7 @@ public class CrowControl : MonoBehaviour
 	void Update () 
 	{
 		if (Input.GetKeyDown ("space"))
-			//Fire
-			Instantiate (ArrowPrefab, transform.position, Quaternion.identity);
-		
-	}
-
-	void onTriggerEnter2D(Collider2D other)
-	{
-		if (other.tag == "deadly") {
-			Debug.Log ("Dead");
-		}
+			//Fire Arrow
+			Instantiate (ArrowPrefab, transform.position, Quaternion.identity);	
 	}
 }
