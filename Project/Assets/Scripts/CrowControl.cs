@@ -26,11 +26,11 @@ public class CrowControl : MonoBehaviour
 	// Player Movement
 		float moveHorizontal = Input.GetAxis ("Horizontal");
 		Vector3 movement = new Vector3 (moveHorizontal, 0.0f, 0);
-		rigidbody.velocity = movement * playerSpeed;
+		GetComponent<Rigidbody>().velocity = movement * playerSpeed;
 	
 	//Player Constraints
-		rigidbody.position = new Vector3 (
-			Mathf.Clamp (rigidbody.position.x, boundary.xMin, boundary.xMax), 
+		GetComponent<Rigidbody>().position = new Vector3 (
+			Mathf.Clamp (GetComponent<Rigidbody>().position.x, boundary.xMin, boundary.xMax), 
 			5.0f,
 			0.0f
 			);
@@ -39,8 +39,9 @@ public class CrowControl : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
+		//Arrow Trigger
 		if (Input.GetKeyDown ("space"))
-			//Fire Arrow
+			//Fires Arrow
 			Instantiate (ArrowPrefab, transform.position, Quaternion.identity);	
 	}
 }
