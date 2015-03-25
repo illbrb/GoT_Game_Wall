@@ -25,6 +25,7 @@ public class ArrowControl : MonoBehaviour {
 		if (other.tag == "enemySpawn")
 		{
 			Destroy(other.gameObject);
+			Destroy(gameObject);
 		}
 
 
