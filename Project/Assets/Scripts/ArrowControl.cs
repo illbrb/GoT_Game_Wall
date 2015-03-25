@@ -19,4 +19,14 @@ public class ArrowControl : MonoBehaviour {
 		if (transform.position.y < -7.5f)
 			Destroy (this.gameObject);
 	}
+
+	void OnTriggerEnter2D(Collider2D other) 
+	{
+		if (other.tag == "enemySpawn")
+		{
+			Destroy(other.gameObject);
+		}
+
+
+}
 }

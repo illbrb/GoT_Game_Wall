@@ -8,5 +8,16 @@ public class DestroyByTime : MonoBehaviour
 	void Start ()
 	{
 		Destroy (gameObject, lifetime);
+		}
+
+	void OnCollisionEnter2D(Collision2D coll)
+	{
+		if (coll.gameObject.name == "ArrowPrefab(Clone)")
+		{
+			Destroy(coll.gameObject);
+		}
 	}
+
+
+
 }
