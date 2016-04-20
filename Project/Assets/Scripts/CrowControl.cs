@@ -35,12 +35,14 @@ public class CrowControl : MonoBehaviour
 			0.0f
 			);
 	}
+	
 
 	// Update is called once per frame
 	void Update () 
 	{
 		//Arrow Trigger
-		if (Input.GetKeyDown ("space"))
+		if (Input.GetKeyDown(KeyCode.A))
+
 			//Fires Arrow
 			Instantiate (ArrowPrefab, transform.position, Quaternion.identity);	
 	}
