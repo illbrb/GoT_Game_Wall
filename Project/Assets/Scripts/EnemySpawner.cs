@@ -18,9 +18,9 @@ public class EnemySpawner : MonoBehaviour
 	IEnumerator SpawnWaves ()
 	{
 		yield return new WaitForSeconds (startWait);
-		while (true)
+		while (true) 
 		{
-			for (int i = 0; i < hazardCount; i++)
+			for (int i = 0; i < hazardCount; i++) 
 			{
 				Vector3 spawnPosition = new Vector3 (Random.Range (-spawnValues.x, spawnValues.x), spawnValues.y, spawnValues.z);
 				Quaternion spawnRotation = Quaternion.identity;
