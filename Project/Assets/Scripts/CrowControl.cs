@@ -41,7 +41,7 @@ public class CrowControl : MonoBehaviour
 	void Update () 
 	{
 		//Arrow Trigger
-		if (Input.GetKeyDown(KeyCode.R))
+		if (Input.GetKeyDown(KeyCode.Space))
 
 			//Fires Arrow
 			Instantiate (ArrowPrefab, transform.position, Quaternion.identity);	
